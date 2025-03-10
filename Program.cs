@@ -5,7 +5,11 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Console.ReadLine();
+            NumberUtils.FastExponentiate(2, 3);
+            Console.ReadKey();
+
+            
+
         }
     }
 }
