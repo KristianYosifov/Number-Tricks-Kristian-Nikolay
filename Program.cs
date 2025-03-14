@@ -8,6 +8,8 @@
 
             Console.WriteLine(NumberUtils.FastExponentiate(2, 3));
 
+
+            Console.WriteLine(Class1.SquareRoot(4));         
             Console.ReadKey();
 
             
