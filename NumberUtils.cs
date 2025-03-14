@@ -8,7 +8,7 @@ namespace NumberTricks
 
 		}
 
-		public double FastExponentiate(double a, int power)
+		public static double FastExponentiate(double a, int power)
 		{
 			if (power == 0) return 1;
 			double halfPowered = FastExponentiate(a, power/2);
