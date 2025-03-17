@@ -19,6 +19,10 @@
 
 
 
+            int num = Convert.ToInt32(Console.ReadLine());
+            List<int> divisors = NumberUtils.Divisors(num);
+            Console.WriteLine($"Divisors of {num}: {string.Join(", ", divisors)}");
+
         }
     }
 }

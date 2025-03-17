@@ -30,6 +30,25 @@ namespace NumberTricks
             }
             return x;
         }
+        public static List<int> Divisors(int num)
+        {
+            List<int> div = new List<int>();
+
+            for (int i = 1; i <= Math.Sqrt(num); i++)
+            {
+                if (num % i == 0)
+                {
+                    div.Add(i);
+                    if (i != num / i)
+                    {
+                        div.Add(num / i);
+                    }
+                }
+            }
+
+            div.Sort();
+            return div;
+        }
 
 
         public static void SieveOfEratosthenes(int n)
