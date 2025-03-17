@@ -12,7 +12,12 @@
             Console.WriteLine(NumberUtils.SquareRoot(4));         
             Console.ReadKey();
 
-            
+
+            Console.WriteLine("SieveOfEratosthenes:");
+            int n = int.Parse(Console.ReadLine());
+            NumberUtils.SieveOfEratosthenes(n);
+
+
 
         }
     }
